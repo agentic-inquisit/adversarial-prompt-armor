@@ -24,6 +24,10 @@ To address this prompt brittleness, we introduce two resilience strategies:
   <img src="assets/image.png" alt="Results chart" width="700">
 </p>
 
+<p align="center">
+  <img src="assets/image1.png" alt="Results chart" width="1700">
+</p>
+
 | Benchmark | Metric | Clean | Perturbed | + Static CoT | + Adaptive CoT (ours) |
 |---|---|---|---|---|---|
 | Natural Questions (14,018 adversarial prompts) | BERTScore-F1 | baseline | ↓ ~4% | ↓ a further ~5% vs. perturbed | recovers to within ~3% of clean |
